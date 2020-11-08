@@ -21,6 +21,10 @@ devtools::install_github("phildwalker/pdwtheme")
 remotes::install_github("phildwalker/pdwtheme", ref = "main")
 ```
 
+## Colors used
+
+<img src="man/figures/README-corporate_swatch-1.png" width="100%" />
+
 ## Example
 
 This is a basic example which shows you how to solve a common problem:

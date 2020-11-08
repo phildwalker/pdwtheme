@@ -32,6 +32,18 @@ devtools::install_github("phildwalker/pdwtheme")
 remotes::install_github("phildwalker/pdwtheme", ref = "main")
 ```
 
+## Colors used
+
+```{r corporate_swatch, echo = F}
+cols <- c(red = "#d11141", green = "#00b159", blue = "#00aedb", orange = "#f37735", yellow = "#ffc425", `light grey` = "#cccccc", `dark grey` = "#8c8c8c")
+n_seq <- seq_along(cols)
+image(1, n_seq, t(as.matrix(n_seq)), col = cols,
+          xlab = "", ylab = "", xaxt = "n", yaxt = "n", bty = "n",
+      main = "Colors used for pdw theme")
+text(0.8, n_seq, names(cols), col = "white")
+text(1.2, n_seq, cols, col = "white")
+
+```
 
 
 ## Example
