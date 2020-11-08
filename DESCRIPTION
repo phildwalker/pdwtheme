@@ -1,0 +1,18 @@
+Package: pdwtheme
+Title: My Personal Theme
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Phil",
+           family = "Walker",
+           role = c("aut", "cre"),
+           email = "philwalker2012@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Creating a package for consistent visualization themeing of the visualization work.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.0.2
+Suggests: 
+    ggplot2,
+    testthat

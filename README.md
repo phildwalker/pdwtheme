@@ -1,2 +1,25 @@
+
 # pdwtheme
-developing a theme package for my work
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of pdwtheme is to ...
+
+## Installation
+
+You can install the released version of pdwtheme from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("pdwtheme")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+``` r
+library(pdwtheme)
+## basic example code
+```
+
