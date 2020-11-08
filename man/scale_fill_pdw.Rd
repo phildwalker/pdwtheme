@@ -17,5 +17,5 @@ scale_fill_pdw(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE}
 }
 \description{
-Fill scale constructor for pdw colors
+This function creates the fill colors from the palette
 }

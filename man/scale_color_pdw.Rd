@@ -17,5 +17,5 @@ scale_color_pdw(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 scale_color_gradientn(), used respectively when discrete is TRUE or FALSE}
 }
 \description{
-Color scale constructor for pdw colors
+This function creates the colors from the palette
 }

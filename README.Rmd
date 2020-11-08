@@ -1,13 +1,24 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # pdwtheme
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-The goal of pdwtheme is to …
+The goal of pdwtheme is to ...
 
 ## Installation
 
@@ -17,26 +28,27 @@ And the current version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("phildwalker/pdwtheme")
 ```
-
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example}
 library(pdwtheme)
 library(ggplot2)
-#> Warning: package 'ggplot2' was built under R version 3.6.3
 
 theme_set(theme_minimal())
 ## basic example code
 ```
 
-``` r
+
+
+
+```{r example of colors}
 
 # Color by discrete variable using default palette
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
   geom_point(size = 4) +
   scale_color_pdw()
+
 ```
 
-<img src="man/figures/README-example of colors-1.png" width="100%" />

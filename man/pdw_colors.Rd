@@ -12,6 +12,6 @@ pdw_colors
 \item{...}{Character names of pdw_colors}
 }
 \description{
-Function to extract pdw colors as hex codes
+This function creates the output vector for the colors into hex codes
 }
 \keyword{datasets}

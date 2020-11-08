@@ -16,6 +16,6 @@ pdw_palettes
 \item{...}{Additional arguments to pass to colorRampPalette()}
 }
 \description{
-Return function to interpolate a pdw color palette
+This function creates a couple of palettes that could be used when plotting
 }
 \keyword{datasets}

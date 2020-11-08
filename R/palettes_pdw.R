@@ -1,12 +1,9 @@
 #' Return function to interpolate a pdw color palette
-#'
+#' @description This function creates a couple of palettes that could be used when plotting
 #' @param palette Character name of palette in pdw_palettes
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
-#'
 #' @export
-#' @examples
-#' pdw_pal("cool")(10)
 #'
 pdw_palettes <- list(
   `main`  = pdw_cols("blue", "green", "yellow"),

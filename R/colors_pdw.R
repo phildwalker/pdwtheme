@@ -1,9 +1,7 @@
 #' Function to extract pdw colors as hex codes
-#'
+#' @description This function creates the output vector for the colors into hex codes
 #' @param ... Character names of pdw_colors
 #' @export
-#' @examples
-#' pdw_cols("red", "blue")
 #'
 
 # drsimonj corporate colors

@@ -1,11 +1,10 @@
 #' Color scale constructor for pdw colors
-#'
+#' @description This function creates the colors from the palette
 #' @param palette Character name of palette in pdw_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
-#'
 #' @export
 #'
 scale_color_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
@@ -20,13 +19,12 @@ scale_color_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, 
 
 
 #' Fill scale constructor for pdw colors
-#'
+#' @description This function creates the fill colors from the palette
 #' @param palette Character name of palette in pdw_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE
-#'
 #' @export
 #'
 scale_fill_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
