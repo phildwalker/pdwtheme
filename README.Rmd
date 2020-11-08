@@ -18,7 +18,12 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of pdwtheme is to ...
+The goal of pdwtheme is to build out the framework for a consistent color and style theme for visualization work that I do. 
+
+### Acknowledgements
+__Note:__ This is my first package:  
+1. A lot of it was built using the example written up by: @drsimonj (https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2)  
+1. I have also been working through the [R packages book](https://r-pkgs.org/) as I have been working to try to figure out how to turn this into a package and is semi robust.
 
 ## Installation
 
@@ -35,7 +40,11 @@ remotes::install_github("phildwalker/pdwtheme", ref = "main")
 ## Colors used
 
 ```{r corporate_swatch, echo = F}
-cols <- c(red = "#d11141", green = "#00b159", blue = "#00aedb", orange = "#f37735", yellow = "#ffc425", `light grey` = "#cccccc", `dark grey` = "#8c8c8c")
+# cols <- c(red = "#d11141", green = "#00b159", blue = "#00aedb", orange = "#f37735", yellow = "#ffc425", `light grey` = "#cccccc", `dark grey` = "#8c8c8c")
+
+cols <- c(`fiji green` = "#6C6F1B", black = "#171409", juniper = "#7B9192", iron = "#C8C9C9", `falu red` = "#701E1E" )
+
+
 n_seq <- seq_along(cols)
 image(1, n_seq, t(as.matrix(n_seq)), col = cols,
           xlab = "", ylab = "", xaxt = "n", yaxt = "n", bty = "n",

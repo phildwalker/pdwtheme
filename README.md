@@ -7,7 +7,17 @@
 
 <!-- badges: end -->
 
-The goal of pdwtheme is to …
+The goal of pdwtheme is to build out the framework for a consistent
+color and style theme for visualization work that I do.
+
+### Acknowledgements
+
+**Note:** This is my first package:  
+1\. A lot of it was built using the example written up by: @drsimonj
+(<https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2>)  
+1\. I have also been working through the [R packages
+book](https://r-pkgs.org/) as I have been working to try to figure out
+how to turn this into a package and is semi robust.
 
 ## Installation
 

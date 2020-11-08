@@ -4,7 +4,7 @@
 \name{pdw_palettes}
 \alias{pdw_palettes}
 \title{Return function to interpolate a pdw color palette}
-\format{An object of class \code{list} of length 5.}
+\format{An object of class \code{list} of length 2.}
 \usage{
 pdw_palettes
 }
