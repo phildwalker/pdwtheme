@@ -6,6 +6,8 @@
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+#' @export
+#'
 scale_color_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- pdw_pal(palette = palette, reverse = reverse)
 
@@ -24,6 +26,8 @@ scale_color_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, 
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE
+#'
+#' @export
 #'
 scale_fill_pdw <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- pdw_pal(palette = palette, reverse = reverse)

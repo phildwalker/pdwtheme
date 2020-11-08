@@ -10,6 +10,10 @@ usethis::use_package("dplyr")
 usethis::use_package("tidyr")
 usethis::use_package("purrr")
 usethis::use_package("stringr")
+usethis::use_package("grDevices")
+usethis::use_package("colorRampPalette")
+usethis::use_package("ggplot2")
+
 
 pkgs <- c("fs", "blastula")
 

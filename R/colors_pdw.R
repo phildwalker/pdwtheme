@@ -1,5 +1,13 @@
+#' Function to extract pdw colors as hex codes
+#'
+#' @param ... Character names of pdw_colors
+#' @export
+#' @examples
+#' pdw_cols("red", "blue")
+#'
 
 # drsimonj corporate colors
+# using https://drsimonj.svbtle.com/creating-corporate-colour-palettes-for-ggplot2 as template
 pdw_colors <- c(
   `red`        = "#d11141",
   `green`      = "#00b159",
@@ -10,10 +18,6 @@ pdw_colors <- c(
   `dark grey`  = "#8c8c8c")
 
 
-#' Function to extract pdw colors as hex codes
-#'
-#' @param ... Character names of pdw_colors
-#'
 pdw_cols <- function(...) {
   cols <- c(...)
 
