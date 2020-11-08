@@ -8,10 +8,11 @@ The goal of pdwtheme is to ...
 
 ## Installation
 
-You can install the released version of pdwtheme from [CRAN](https://CRAN.R-project.org) with:
+You can install the released version of pdwtheme from this github repo with:
 
 ``` r
-install.packages("pdwtheme")
+# install.packages("pdwtheme")
+remotes::install_github("phildwalker/pdwtheme", ref = "main")
 ```
 
 ## Example
