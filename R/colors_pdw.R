@@ -15,12 +15,17 @@
 #   `light grey` = "#cccccc",
 #   `dark grey`  = "#8c8c8c")
 
+# `fiji green` = "#6C6F1B",
+# black = "#171409",
+# juniper = "#7B9192",
+# iron = "#C8C9C9",
+# `falu red` = "#701E1E"
+
 pdw_colors <- c(
-  `fiji green` = "#6C6F1B",
-  black = "#171409",
-  juniper = "#7B9192",
-  iron = "#C8C9C9",
-  `falu red` = "#701E1E" )
+  blue = "#18254f",
+  orange = "#dc572e",
+  `dark grey` = "#646464",
+  yellow = "#ef762f")
 
 
 pdw_cols <- function(...) {

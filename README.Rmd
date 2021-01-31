@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -42,8 +44,8 @@ remotes::install_github("phildwalker/pdwtheme", ref = "main")
 ```{r corporate_swatch, echo = F}
 # cols <- c(red = "#d11141", green = "#00b159", blue = "#00aedb", orange = "#f37735", yellow = "#ffc425", `light grey` = "#cccccc", `dark grey` = "#8c8c8c")
 
-cols <- c(`fiji green` = "#6C6F1B", black = "#171409", juniper = "#7B9192", iron = "#C8C9C9", `falu red` = "#701E1E" )
-
+# cols <- c(`fiji green` = "#6C6F1B", black = "#171409", juniper = "#7B9192", iron = "#C8C9C9", `falu red` = "#701E1E" )
+cols <- c(blue = "#18254f",  orange = "#dc572e",  `dark grey` = "#646464",  yellow = "#ef762f")
 
 n_seq <- seq_along(cols)
 image(1, n_seq, t(as.matrix(n_seq)), col = cols,
