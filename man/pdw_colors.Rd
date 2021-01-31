@@ -4,7 +4,9 @@
 \name{pdw_colors}
 \alias{pdw_colors}
 \title{Function to extract pdw colors as hex codes}
-\format{An object of class \code{character} of length 5.}
+\format{
+An object of class \code{character} of length 4.
+}
 \usage{
 pdw_colors
 }
