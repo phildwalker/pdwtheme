@@ -11,7 +11,7 @@
   #                         #dropdown = knit_dropdown,
   #                         chunk = ea_hooks)
 
-  set_cone_defaults()
+  set_pdw_defaults()
 
   conflicted::conflict_prefer(name = "geom_bar",
                               winner = "pdwtheme", quiet = TRUE)
