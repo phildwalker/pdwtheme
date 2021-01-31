@@ -6,10 +6,12 @@
 #' @export
 #'
 pdw_palettes <- list(
-  `main`  = pdw_cols("fiji green", "black", "juniper", "iron", "falu red"),
+  # `main`  = pdw_cols("fiji green", "black", "juniper", "iron", "falu red"),
+  # `mixed` = pdw_cols( "black", "juniper", "falu red")
+  'main' = pdw_cols("blue", "orange","dark grey", "yellow"),
+  'mixed' = pdw_cols("blue", "orange","dark grey")
   # `cool`  = pdw_cols("blue", "green"),
   # `hot`   = pdw_cols("yellow", "orange", "red"),
-  `mixed` = pdw_cols( "black", "juniper", "falu red")
   # `grey`  = pdw_cols("light grey", "dark grey")
 )
 

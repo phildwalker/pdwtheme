@@ -13,8 +13,24 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
-Suggests: 
-    testthat
+Depends: 
+    R (>= 2.10)
 Imports: 
     ggplot2,
-    grDevices
+    gridExtra,
+    grid,
+    conflicted,
+    grDevices,
+    knitr,
+    kableExtra,
+    glue,
+    highcharter,
+    DT,
+    sysfonts,
+    showtext,
+    reactable
+Suggests:
+    htmltools,
+    ggtext,
+    rstudioapi,
+    scales

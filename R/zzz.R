@@ -34,17 +34,17 @@
   conflicted::conflict_prefer(name = "scale_fill_discrete",
                               winner = "pdwtheme", quiet = TRUE)
 
-  conflicted::conflict_prefer(name = "kable",
-                              winner = "pdwtheme", quiet = TRUE)
-
-  conflicted::conflict_prefer(name = "kable_styling",
-                              winner = "pdwtheme", quiet = TRUE)
-
-  conflicted::conflict_prefer(name = "datatable",
-                              winner = "pdwtheme", quiet = TRUE)
-
-  conflicted::conflict_prefer(name = "reactable",
-                              winner = "pdwtheme", quiet = TRUE)
+  # conflicted::conflict_prefer(name = "kable",
+  #                             winner = "pdwtheme", quiet = TRUE)
+  #
+  # conflicted::conflict_prefer(name = "kable_styling",
+  #                             winner = "pdwtheme", quiet = TRUE)
+  #
+  # conflicted::conflict_prefer(name = "datatable",
+  #                             winner = "pdwtheme", quiet = TRUE)
+  #
+  # conflicted::conflict_prefer(name = "reactable",
+  #                             winner = "pdwtheme", quiet = TRUE)
 
 
 }
